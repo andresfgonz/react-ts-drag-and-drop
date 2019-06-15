@@ -1,0 +1,43 @@
+.ui.segment.panel {
+  width: 200px;
+  height: 500px;
+  user-select: none;
+  display: flex;
+  margin: 0 !important;
+  background-color: #f3f3f3;
+  border: none;
+  padding: 4px;
+}
+
+.draggable-element {
+  width: 100%;
+  height: 100px;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 10px #cecece;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+}
+
+.container {
+  user-select: none;
+  width: 420px;
+  display: flex;
+  justify-content: space-between;
+
+  &:active{
+    cursor: pointer;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}

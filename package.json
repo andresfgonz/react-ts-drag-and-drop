@@ -8,7 +8,7 @@
     "@types/react": "16.8.1",
     "@types/react-dom": "16.0.11",
     "immutable": "^4.0.0-rc.12",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "react": "^16.8.0-alpha.1",
     "react-dom": "^16.8.0-alpha.1",
     "react-scripts": "2.1.3",
